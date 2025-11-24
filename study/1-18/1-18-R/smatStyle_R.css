@@ -1,0 +1,39 @@
+@media screen and (min-width: 767px) {
+/* ここにPC用のCSSを記述 */
+}
+@media screen and (max-width: 767px) {
+/* ここにタブレット用のCSSを記述 */    
+}
+@media screen and (max-width: 479px) {
+/* ここにスマホ用のCSSを記述 */
+    .header {
+        width: 150px;
+    }
+    .contents {
+        height: auto;
+    }
+    .left {
+        float: none; /* 要素のフロートを解除 */
+        width:150px;
+    }
+    .top-mid {
+        float: none; /* 要素のフロートを解除 */
+        width: 150px;
+    }
+    .center-top {
+        float: none; /* 要素のフロートを解除 */
+        width: 150px;
+    }
+    .center-mid {
+        float: none; /* 要素のフロートを解除 */
+        width: 150px;
+    }
+    .btm {
+        float: none; /* 要素のフロートを解除 */
+        width: 150px;
+    }
+    .footer {
+        width: 150px;
+    }
+
+}
